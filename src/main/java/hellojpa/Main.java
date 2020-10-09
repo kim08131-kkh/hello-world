@@ -19,8 +19,8 @@ public class Main {
 			
 			Member member = new Member();
 			member.setId(100L);
-			member.setName("¾È³çÇÏ¼¼¿ä");
-			//Git Å×½ºÆ®
+			member.setName("ï¿½È³ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½");
+			//Git í…ŒìŠ¤íŠ¸
 			em.persist(member);
 			tx.commit();
 		} catch(Exception e) {
