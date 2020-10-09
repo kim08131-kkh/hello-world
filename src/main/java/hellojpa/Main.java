@@ -20,7 +20,7 @@ public class Main {
 			Member member = new Member();
 			member.setId(100L);
 			member.setName("안녕하세요");
-			
+			//Git 테스트
 			em.persist(member);
 			tx.commit();
 		} catch(Exception e) {
